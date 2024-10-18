@@ -1,0 +1,40 @@
+/* Custom page styling */
+body {
+    background-color: #f0f0f0;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#taskInput {
+    border-radius: 0;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.list-group-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-group-item button:hover {
+    background-color: #c82333;
+}
